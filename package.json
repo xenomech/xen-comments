@@ -10,7 +10,7 @@
     "Snippets"
   ],
   "repository": {
-    "url": "",
+    "url": "https://github.com/xenomech/xen-comments",
     "type": "git"
   },
   "contributes": {
