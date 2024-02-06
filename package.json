@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.86.0"
   },
+  "publisher": "xenomech",
   "categories": [
     "Snippets"
   ],
