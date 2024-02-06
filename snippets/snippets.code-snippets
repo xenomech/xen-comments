@@ -1,0 +1,27 @@
+{
+  "Generate Comments Bash": {
+    "scope": "bash, zsh",
+    "prefix": "gcb",
+    "body": [
+      "echo \"*****************************\"",
+      "echo \"* $1 \"",
+      "echo \"* $2 \"",
+      "echo \"* Version: $3 \"",
+      "echo \"*****************************\""
+    ]
+  },
+  "Generate Comments Typescript": {
+    "scope": "typescript, javascript",
+    "prefix": "gcj",
+    "body": ["/**", "* @name $1 ", "* @param $2 ", "* @author $3 ", "**/"]
+  },
+  "Generate Comments global": {
+    "prefix": "genc",
+    "body": [
+      "# \"*****************************\"",
+      "# \"* $1 \"",
+      "# \"* $2 \"",
+      "# \"*****************************\""
+    ]
+  }
+}

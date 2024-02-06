@@ -1,0 +1,24 @@
+{
+  "name": "xen-comments",
+  "displayName": "xen comments",
+  "description": "snippets to generate comments",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
